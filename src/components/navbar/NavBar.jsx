@@ -9,18 +9,15 @@ const NavBar = () => {
       <Flex  justifyContent={'space-between'} w={'100%'} p={'10px'}>
       <HStack>
         <NavLink to='/'>
-            <Button>Home</Button>
+            <Button variant={'ghost'} colorScheme='yellow'>Home</Button>
           </NavLink>
       </HStack>
       <HStack >
         <NavLink to='/login'>
-          <Button>Login</Button>
+          <Button variant={'outline'} colorScheme='yellow'>Login</Button>
         </NavLink>
         <NavLink to='/register'>
-          <Button>Register</Button>
-        </NavLink>
-        <NavLink to='/cart'>
-          <Button leftIcon={<ArrowUpIcon/>}>cart</Button>
+          <Button variant={'outline'} colorScheme='yellow'>Register</Button>
         </NavLink>
       </HStack>
       </Flex>

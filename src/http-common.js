@@ -1,0 +1,1 @@
+export const backend_url="https://coinranking1.p.rapidapi.com/"
